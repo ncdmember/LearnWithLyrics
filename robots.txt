@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://englishwithsong.com/sitemap.xml
+
+# Crawl-delay for bots
+Crawl-delay: 1
+
+# Allow access to CSS and JS files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /images/
+
+# Block access to source files and development folders
+Disallow: /src/
+Disallow: *.scss
+Disallow: *.ts
+Disallow: /node_modules/
+Disallow: /gulpfile.js
+Disallow: /package.json
+Disallow: /pnpm-lock.yaml
